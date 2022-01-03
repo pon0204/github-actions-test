@@ -13,6 +13,8 @@ on:
     paths:
       - '**.js' # only work javascript
       - '!filename.js'
+    branches-ignore:
+      - '**'
     # paths-ignore:
     #   - 'docs/**'
   # repository_dispatch:
