@@ -3,11 +3,11 @@ name: Actions Workflow
 # on: [push, pull_request]
 on:
   push:
-    branches:
-      - master
-      - 'feature/*' #matches feature/featA,
-      - 'feature/**'
-      - '!feature/featC'
+    # branches:
+    #   - master
+    #   - 'feature/*' #matches feature/featA,
+    #   - 'feature/**'
+    #   - '!feature/featC'
     tags:
       - v1.*
     paths:
